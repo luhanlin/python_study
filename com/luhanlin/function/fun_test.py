@@ -58,7 +58,6 @@ def variable_fun(kind, *arguments, **keywords):
 
 
 # 关键字参数 以下函数接受一个必需的参数（voltage）和三个可选的参数（state, action，和 type）
-# 借用官网例子
 def key_fun(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
     print("-- This key_fun wouldn't", action, end=' ')
     print("if you put", voltage, "volts through it.")
