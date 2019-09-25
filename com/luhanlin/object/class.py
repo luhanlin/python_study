@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 class UserInfo(object):
@@ -18,5 +18,9 @@ if __name__ == '__main__':
     # 打印构造函数中的属性
     print(userInfo.__dict__)
     print(userInfo.get_account())
+    print(userInfo._age)
     # 用于验证双下划线是否是真正的私有属性
     print(userInfo._UserInfo__account)
+
+
+
